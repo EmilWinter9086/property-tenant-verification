@@ -1,0 +1,19 @@
+{
+  "name": "property-tenant-verification",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/tenant-signup-service.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/verification-decision.test.ts"
+  },
+  "dependencies": {
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
